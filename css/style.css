@@ -139,6 +139,10 @@ form .button input {
 form .button input:hover {
   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
+form .imgQr img {
+  width: 100%;
+  padding: 10px;
+}
 
 /* Responsive media query code for mobile devices */
 @media (max-width: 584px) {

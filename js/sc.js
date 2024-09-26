@@ -3,7 +3,15 @@ document.getElementById("pushdata").onclick = function (e) {
   let domi = document.getElementById("domi").value;
   let notelp = document.getElementById("numbers").value;
   let agent = document.getElementById("agent").value;
-  let qr = name + "-" + domi + "-" + notelp + "-" + agent;
+  let qr =
+    name +
+    "-" +
+    domi +
+    "-" +
+    notelp +
+    "-" +
+    agent +
+    " (MENDAPATKAN PROMO DISKON 10 JUTA GRAND LAUNCHING)";
   genQr(qr);
 };
 let imgBox = document.getElementById("imgBox");
